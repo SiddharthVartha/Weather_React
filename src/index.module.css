@@ -1,0 +1,58 @@
+body {
+  height: 90vh;
+  margin: auto;
+  background: rgb(0 0 0 / 61%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.searchBox{
+  height: 10vh;
+}
+input,button{
+  height: 5vh;
+  font-size: large;
+  border: none;
+}
+.maindesc{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.heading .title {
+  margin: 0;
+  font-size: 36px;
+}
+
+.heading .date {
+  margin: 10px 0;
+  font-size: 16px;
+  font-size: 30px;
+}
+
+.dashboard {
+  color: white;
+  width: 420px;
+  border-radius: 0 0 20px -15px black;
+  margin: auto;
+}
+
+header {
+  background-color: #000000d1;
+  overflow: hidden;
+  color: white;
+  border-radius: 0 0 50px 50px;
+  padding: 40px 40px 20px;
+  box-shadow: 0 -5px 27px 0 rgba(128, 128, 128, 0.15);
+}
+
+.weather {
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+
